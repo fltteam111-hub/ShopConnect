@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ShopConnect/static/css/main.9c1921a8.css",
-    "main.js": "/ShopConnect/static/js/main.ac0e826e.js",
+    "main.js": "/ShopConnect/static/js/main.54d04587.js",
     "index.html": "/ShopConnect/index.html",
     "main.9c1921a8.css.map": "/ShopConnect/static/css/main.9c1921a8.css.map",
-    "main.ac0e826e.js.map": "/ShopConnect/static/js/main.ac0e826e.js.map"
+    "main.54d04587.js.map": "/ShopConnect/static/js/main.54d04587.js.map"
   },
   "entrypoints": [
     "static/css/main.9c1921a8.css",
-    "static/js/main.ac0e826e.js"
+    "static/js/main.54d04587.js"
   ]
 }
