@@ -24,8 +24,7 @@ a {
   justify-content: space-between;
   gap: 12px;
   padding: 16px 6%;
-  position: fixed;
-  width: 100%;
+
   top: 0;
   color: white;
   background:linear-gradient(135deg,#202220,#923206);
@@ -51,7 +50,6 @@ a {
   width: min(1100px, 92%);
   margin: 24px auto;
   flex: 1;
-  margin-top: 60px;
 
 }
 .footer {
@@ -250,13 +248,7 @@ button:hover {
 }
 
 @media (max-width: 700px) {
-  .main-content {
-    width: min(1100px, 92%);
-    margin: 24px auto;
-    flex: 1;
-    margin-top: 12%;
-    
-  }
+
   .product-detail-layout {
     grid-template-columns: 1fr;
   }
