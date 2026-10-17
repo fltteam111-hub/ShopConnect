@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ShopConnect/static/css/main.eceec1ba.css",
+    "main.js": "/ShopConnect/static/js/main.31fa7329.js",
+    "index.html": "/ShopConnect/index.html",
+    "main.eceec1ba.css.map": "/ShopConnect/static/css/main.eceec1ba.css.map",
+    "main.31fa7329.js.map": "/ShopConnect/static/js/main.31fa7329.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eceec1ba.css",
+    "static/js/main.31fa7329.js"
+  ]
+}
