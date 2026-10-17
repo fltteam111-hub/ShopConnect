@@ -11,6 +11,7 @@ a {
   color: inherit;
 }
 .app-shell {
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,7 +24,9 @@ a {
   justify-content: space-between;
   gap: 12px;
   padding: 16px 6%;
-  background: #222;
+  position: fixed;
+  width: 100%;
+  top: 0;
   color: white;
   background:linear-gradient(135deg,#202220,#923206);
 }
@@ -48,6 +51,8 @@ a {
   width: min(1100px, 92%);
   margin: 24px auto;
   flex: 1;
+  margin-top: 60px;
+
 }
 .footer {
   text-align: center;
