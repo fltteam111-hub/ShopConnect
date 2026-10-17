@@ -102,7 +102,7 @@ export default function ProductDetails() {
           <h3>Description</h3>
           <p>
             Découvrez {product.title}, un produit proposé par
-            ShopConnect. Consultez ses informations et son prix
+            LHYAshop. Consultez ses informations et son prix
             avant de faire votre choix.
           </p>
 

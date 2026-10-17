@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <Container>
       <section className="panel">
-        <h1>Bienvenue sur ShopConnect 🛒</h1>
+        <h1>Bienvenue sur Stor LHYAshop 🛒</h1>
         <p>Votre mini-application React commence ici.</p>
         <p>Thème fourni par useContext : <strong>{theme}</strong></p>
       </section>

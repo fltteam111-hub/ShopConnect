@@ -15,7 +15,7 @@ export default function App() {
       <Router>
         <div className="app-shell">
           <nav className="navbar">
-            <Link className="brand" to="/"> 🛍️ ShopConnect</Link>
+            <Link className="brand" to="/"> 🛍️ LHYAshop</Link>
             <div className="nav-links">
               <Link to="/">Accueil</Link>
               <Link to="/about">À propos</Link>
@@ -35,7 +35,7 @@ export default function App() {
               <Route path="/cart" element={<Cart />} />
             </Routes>
           </main>
-          <footer className="footer">ShopConnect — Mini-application React</footer>
+          <footer className="footer">LHYAshop — Mini-application React</footer>
         </div>
       </Router>
     </ThemeContext.Provider>
