@@ -10,17 +10,13 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/products")
+    fetch("https://shopconnect-api-production.up.railway.app/api/products")
       .then((response) => {
         if (!response.ok) throw new Error("Réponse API incorrecte");
         return response.json();
       })
       .then((data) => setProducts(data))
-      .catch(() =>
-        setError(
-          "API Laravel indisponible. Vérifiez que Laravel est lancé sur le port 8000.",
-        ),
-      )
+      .catch(() => setError("API Laravel indisponible. Vérifiez que Laravel est lancé sur le port 8000."))
       .finally(() => setLoading(false));
   }, []);
 
@@ -29,9 +25,7 @@ export default function Home() {
       <section className="panel">
         <h1>Bienvenue sur ShopConnect 🛒</h1>
         <p>Votre mini-application React commence ici.</p>
-        <p>
-          Thème fourni par useContext : <strong>{theme}</strong>
-        </p>
+        <p>Thème fourni par useContext : <strong>{theme}</strong></p>
       </section>
 
       <Card title="Nos services">
