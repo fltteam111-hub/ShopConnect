@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f6fa;
+  color: #242424;
+}
+a {
+  color: inherit;
+}
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background:linear-gradient(135deg,#006400,#ffd700);
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 6%;
+  background: #222;
+  color: white;
+  background:linear-gradient(135deg,#202220,#923206);
+}
+.brand {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.nav-links a:hover {
+  color: #ffd166;
+}
+.main-content {
+  width: min(1100px, 92%);
+  margin: 24px auto;
+  flex: 1;
+}
+.footer {
+  text-align: center;
+  padding: 18px;
+  background: #222;
+  color: white;
+  margin-top: 30px;
+  background:linear-gradient(135deg,#1e1f1e,#814b04,#1e1f1e);
+}
+.panel {
+  background:linear-gradient(135deg,#cef107,#74fd74,#f58edb,#6b74f5,#d84f4f);
+  padding: 22px;
+  margin: 16px 0;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #00000010;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  
+}
+.product-card {
+  background:linear-gradient(135deg,#f4f804,#bef1be,#a3f58e,#ecf56b,#29f1e7);
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #e4e4e4;
+}
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+.product-card h3 {
+  font-size: 1rem;
+}
+input,
+button {
+  font: inherit;
+  padding: 9px 10px;
+  margin: 4px;
+
+  background:linear-gradient(135deg,#f5bc68,#bef1be,#8ebef5,#ecf56b,#f58383);
+}
+button {
+  cursor: pointer;
+  border: 2px solid #e8eee8,#1e1f1e,#eeebe8,#1e1f1e;
+  border-radius: 6px;
+  background: #92231b;
+  color: white;
+}
+button:hover {
+  background:linear-gradient(135deg,#e9b303,#040a64);
+}
+.filters {
+  background:linear-gradient(135deg,#e98d04,#bef1be,#8ebef5,#ecf56b,#be4949);
+
+  padding: 12px;
+  border-radius: 10px;
+  margin: 18px 0;
+}
+.error {
+  color: #b00020;
+}
+.success {
+  color: #087443;
+}
+.search-row {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.small-image {
+  max-width: 180px;
+  max-height: 180px;
+  object-fit: contain;
+}
